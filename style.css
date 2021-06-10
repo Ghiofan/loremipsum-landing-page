@@ -1,0 +1,778 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+
+
+    body {
+        font-family: 'hind', sans-serif;
+    }
+
+    /* navbar */
+    .header .navbar {
+        height: 70px;
+        background-color: #51643d;
+    }
+
+    .header .navbar a {
+        color: white;
+        margin-left: 15px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    /* main-header-section */
+
+    .header {
+    background-color: #51643d;
+    }
+
+    .header .main-header {
+        min-height: 700px;
+        padding-bottom: 40px;
+    }
+
+    .header .main-header h3 {
+        color: white;
+        font-size: 45px;
+        font-weight: 600;
+        margin-top: 200px;
+    }
+
+    .header .main-header h3 span {
+        color: #ffd56b;
+    }
+
+    .header .main-header p {
+        color: white;
+        opacity: 0.6;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    
+    /* about-section */
+
+    .about {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #ebe5d0;
+    }
+
+    .about img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }
+
+    .about h3 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    .about p {
+        font-size: 18px;
+    }
+
+    .about .text {
+        margin-top: 30px;
+    }
+
+    .about button {
+        width: 150px;
+        height: 55px;
+    }
+
+    /* product */
+    .product {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #ffd56b;
+    }
+
+    .product h3 {
+        font: 600 35px 'hind', sans-serif;
+    }
+
+    .product .card {
+        margin-bottom: 30px;
+    }
+
+    /* service-section */
+
+    .service {
+        padding: 40px 0 40px 0;
+        background-color: #ebe5d0;
+    }
+
+    .service img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .service h3 {
+        font: 600 35px 'hind', sans-serif;
+    }
+
+    .service .accordion {
+        margin-bottom: 30px;
+    }
+
+    .service .accordion-header .accordion-button {
+        background-color: #ebe5d0;
+        border-collapse: collapse;
+    }
+    .service .accordion-header button {
+        color: black;
+        border: none;
+    }
+
+    .service .accordion-item {
+        background-color: #ebe5d0;
+    }
+
+    .service .accordion button {
+        font: 500 18px 'hind', sans-serif;
+    }
+
+/* RESPONSIVE BREAKPOINT */
+
+@media (min-width: 575.98px) {
+
+    body {
+        font-family: 'hind', sans-serif;
+    }
+
+    /* navbar */
+    .header .navbar {
+        height: 70px;
+        background-color: #51643d;
+    }
+
+    .header .navbar a {
+        color: white;
+        margin-left: 15px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    /* main-header-section */
+
+    .header {
+    background-color: #51643d;
+    }
+
+    .header .main-header {
+        min-height: 700px;
+    }
+
+    .header .main-header h3 {
+        color: white;
+        font-size: 55px;
+        font-weight: 600;
+        margin-top: 200px;
+    }
+
+    .header .main-header h3 span {
+        color: #ffd56b;
+    }
+
+    .header .main-header p {
+        color: white;
+        opacity: 0.6;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    
+    /* about-section */
+
+    .about {
+        min-height: 1080px;
+        padding-top: 40px;
+        background-color: #ebe5d0;
+    }
+
+    .about img {
+        width: 100%;
+        height: 515px;
+        object-fit: cover;
+    }
+
+    .about h3 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .about p {
+        font-size: 18px;
+    }
+
+    .about .text {
+        margin-top: 30px;
+    }
+
+    .about button {
+        width: 150px;
+        height: 55px;
+    }
+
+    /* product */
+    .product {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #ffd56b;
+    }
+
+    .product h3 {
+        font: 600 40px 'hind', sans-serif;
+    }
+
+    .product .card {
+        margin-bottom: 30px;
+    }
+
+    /* service-section */
+
+    .service {
+        min-height: 1080px;
+        padding-top: 40px;
+        background-color: #ebe5d0;
+    }
+
+    .service img {
+        width: 100%;
+        height: 550px;
+        object-fit: cover;
+    }
+
+    .service h3 {
+        font: 600 40px 'hind', sans-serif;
+    }
+
+    .service .accordion {
+        margin-bottom: 30px;
+    }
+
+    .service .accordion-header .accordion-button {
+        background-color: #ebe5d0;
+        border-collapse: collapse;
+    }
+    .service .accordion-header button {
+        color: black;
+        border: none;
+    }
+
+    .service .accordion-item {
+        background-color: #ebe5d0;
+    }
+
+    .service .accordion button {
+        font: 500 18px 'hind', sans-serif;
+    }
+}
+
+@media (min-width: 767.98px) {
+
+    body {
+        font-family: 'hind', sans-serif;
+    }
+
+    /* navbar */
+    .header .navbar {
+        height: 70px;
+        background-color: #51643d;
+    }
+
+    .header .navbar a {
+        color: white;
+        margin-left: 15px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    /* main-header-section */
+
+    .header {
+    background-color: #51643d;
+    }
+
+    .header .main-header {
+        min-height: 700px;
+    }
+
+    .header .main-header h3 {
+        color: white;
+        font-size: 50px;
+        font-weight: 600;
+        margin-top: 200px;
+    }
+
+    .header .main-header h3 span {
+        color: #ffd56b;
+    }
+
+    .header .main-header p {
+        color: white;
+        opacity: 0.6;
+        margin-top: 20px;
+        font-size: 19px;
+    }
+    
+    /* about-section */
+
+    .about {
+        min-height: 700px;
+        padding-top: 60px;
+        background-color: #ebe5d0;
+    }
+
+    .about img {
+        width: 100%;
+        height: 515px;
+        object-fit: cover;
+    }
+
+    .about h3 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .about p {
+        font-size: 18px;
+    }
+
+    .about .text {
+        margin-top: 55px;
+    }
+
+    .about button {
+        width: 150px;
+        height: 55px;
+    }
+
+    /* product */
+    .product {
+        padding-top: 60px;
+        padding-bottom: 80px;
+        background-color: #ffd56b;
+    }
+
+    .product h3 {
+        font: 600 40px 'hind', sans-serif;
+    }
+
+    /* service-section */
+
+    .service {
+        min-height: 700px;
+        padding-top: 75px;
+        background-color: #ebe5d0;
+    }
+
+    .service img {
+        width: 100%;
+        height: 550px;
+        object-fit: cover;
+    }
+
+    .service h3 {
+        font: 600 30px 'hind', sans-serif;
+    }
+
+    .service .accordion-header .accordion-button {
+        background-color: #ebe5d0;
+        border-collapse: collapse;
+    }
+    .service .accordion-header button {
+        color: black;
+        border: none;
+    }
+
+    .service .accordion-item {
+        background-color: #ebe5d0;
+    }
+
+    .service .accordion button {
+        font: 500 18px 'hind', sans-serif;
+    }
+
+}
+
+@media (min-width: 991.98px) {
+
+    body {
+        font-family: 'hind', sans-serif;
+    }
+
+    /* navbar */
+    .header .navbar {
+        height: 70px;
+        background-color: #51643d;
+    }
+
+    .header .navbar a {
+        color: white;
+        margin-left: 15px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    /* main-header-section */
+
+    .header {
+    background-color: #51643d;
+    }
+
+    .header .main-header {
+        min-height: 700px;
+    }
+
+    .header .main-header h3 {
+        color: white;
+        font-size: 55px;
+        font-weight: 600;
+        margin-top: 200px;
+    }
+
+    .header .main-header h3 span {
+        color: #ffd56b;
+    }
+
+    .header .main-header p {
+        color: white;
+        opacity: 0.6;
+        margin-top: 20px;
+        font-size: 19px;
+    }
+    
+    /* about-section */
+
+    .about {
+        min-height: 700px;
+        padding-top: 60px;
+        background-color: #ebe5d0;
+    }
+
+    .about img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+
+    .about h3 {
+        font-size: 45px;
+        font-weight: 600;
+    }
+
+    .about p {
+        font-size: 19px;
+    }
+
+    .about .text {
+        margin-top: 50px;
+    }
+
+    .about button {
+        width: 150px;
+        height: 55px;
+    }
+
+    /* product */
+    .product {
+        padding-top: 80px;
+        padding-bottom: 150px;
+        background-color: #ffd56b;
+    }
+
+    .product h3 {
+        font: 600 45px 'hind', sans-serif;
+    }
+
+    /* service-section */
+
+    .service {
+        min-height: 700px;
+        padding-top: 75px;
+        background-color: #ebe5d0;
+    }
+
+    .service img {
+        width: 100%;
+        height: 550px;
+        object-fit: cover;
+    }
+
+    .service h3 {
+        font: 600 45px 'hind', sans-serif;
+    }
+
+    .service .accordion-header .accordion-button {
+        background-color: #ebe5d0;
+        border-collapse: collapse;
+    }
+    .service .accordion-header button {
+        color: black;
+        border: none;
+    }
+
+    .service .accordion-item {
+        background-color: #ebe5d0;
+    }
+
+    .service .accordion button {
+        font: 500 20px 'hind', sans-serif;
+    }
+}
+
+@media (min-width: 1199.98px) {
+
+    body {
+        font-family: 'hind', sans-serif;
+    }
+
+    /* navbar */
+    .header .navbar {
+        height: 65px;
+        background-color: #51643d;
+    }
+
+    .header .navbar a {
+        color: white;
+        margin-left: 15px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    /* main-header-section */
+
+    .header {
+        min-height: 800px;
+        background-color: #51643d;
+    }
+
+    .header .main-header {
+        min-height: 800px;
+    }
+
+    .header .main-header h3 {
+        color: white;
+        font-size: 57px;
+        font-weight: 600;
+        margin-top: 230px;
+    }
+
+    .header .main-header h3 span {
+        color: #ffd56b;
+    }
+
+    .header .main-header p {
+        color: white;
+        opacity: 0.6;
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    
+    /* about-section */
+
+    .about {
+        min-height: 800px;
+        padding-top: 70px;
+        background-color: #ebe5d0;
+    }
+
+    .about img {
+        width: 100%;
+        height: 593px;
+        object-fit: cover;
+    }
+
+    .about h3 {
+        font-size: 45px;
+        font-weight: 600;
+    }
+
+    .about p {
+        font-size: 24px;
+    }
+
+    .about .text {
+        margin-top: 60px;
+    }
+
+    .about button {
+        width: 150px;
+        height: 55px;
+    }
+
+    /* product */
+    .product {
+        padding-top: 80px;
+        padding-bottom: 150px;
+        background-color: #ffd56b;
+    }
+
+    .product h3 {
+        font: 600 45px 'hind', sans-serif;
+    }
+
+    /* service-section */
+
+    .service {
+        min-height: 700px;
+        padding-top: 75px;
+        background-color: #ebe5d0;
+    }
+
+    .service img {
+        width: 100%;
+        height: 550px;
+        object-fit: cover;
+    }
+
+    .service h3 {
+        font: 600 45px 'hind', sans-serif;
+    }
+
+    .service .accordion-header .accordion-button {
+        background-color: #ebe5d0;
+        border-collapse: collapse;
+    }
+    .service .accordion-header button {
+        color: black;
+        border: none;
+    }
+
+    .service .accordion-item {
+        background-color: #ebe5d0;
+    }
+
+    .service .accordion button {
+        font: 500 20px 'hind', sans-serif;
+    }
+}
+
+@media (min-width: 1399.98px) {
+
+    body {
+        font-family: 'hind', sans-serif;
+    }
+
+    /* navbar */
+    .header .navbar {
+        height: 70px;
+        background-color: #51643d;
+    }
+
+    .header .navbar a {
+        color: white;
+        margin-left: 15px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    /* main-header-section */
+
+    .header {
+    min-height: 800px;
+    background-color: #51643d;
+    }
+
+    .header .main-header {
+        min-height: 850px;
+    }
+
+    .header .main-header h3 {
+        color: white;
+        font-size: 65px;
+        font-weight: 600;
+        margin-top: 230px;
+    }
+
+    .header .main-header h3 span {
+        color: #ffd56b;
+    }
+
+    .header .main-header p {
+        color: white;
+        opacity: 0.6;
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    
+    /* about-section */
+
+    .about {
+        min-height: 800px;
+        padding-top: 70px;
+        background-color: #ebe5d0;
+    }
+
+    .about img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .about h3 {
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    .about p {
+        font-size: 24px;
+    }
+
+    .about .text {
+        margin-top: 100px;
+    }
+
+    .about button {
+        width: 150px;
+        height: 55px;
+    }
+
+    /* product */
+    .product {
+        padding-top: 80px;
+        padding-bottom: 150px;
+        background-color: #ffd56b;
+    }
+
+    .product h3 {
+        font: 600 50px 'hind', sans-serif;
+    }
+
+    /* service-section */
+
+    .service {
+        min-height: 700px;
+        padding-top: 75px;
+        background-color: #ebe5d0;
+    }
+
+    .service img {
+        width: 100%;
+        height: 550px;
+        object-fit: cover;
+    }
+
+    .service h3 {
+        font: 600 50px 'hind', sans-serif;
+    }
+
+    .service .accordion-header .accordion-button {
+        background-color: #ebe5d0;
+        border-collapse: collapse;
+    }
+    .service .accordion-header button {
+        color: black;
+        border: none;
+    }
+
+    .service .accordion-item {
+        background-color: #ebe5d0;
+    }
+
+    .service .accordion button {
+        font: 500 20px 'hind', sans-serif;
+    }
+
+}
