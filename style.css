@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
 
 
     body {
@@ -8,15 +7,13 @@
 
     /* navbar */
     .header .navbar {
-        height: 70px;
+        z-index: 999;
         background-color: #51643d;
     }
 
-    .header .navbar a {
-        color: white;
-        margin-left: 15px;
-        font-size: 15px;
-        font-weight: 400;
+    .navbar-dark .navbar-toggler {
+        color: rgba(255, 255, 255, 0);
+        border-color: rgba(255, 255, 255, 0);
     }
 
     /* main-header-section */
@@ -26,15 +23,15 @@
     }
 
     .header .main-header {
-        min-height: 80vh;
+        min-height: 60vh;
         padding-bottom: 40px;
     }
 
     .header .main-header h3 {
         color: white;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 600;
-        margin-top: 200px;
+        margin-top: 17vh;
     }
 
     .header .main-header h3 span {
@@ -45,7 +42,7 @@
         color: white;
         opacity: 0.6;
         margin-top: 20px;
-        font-size: 20px;
+        font-size: 18px;
     }
     
     /* about-section */
