@@ -26,13 +26,13 @@
     }
 
     .header .main-header {
-        min-height: 100vh;
+        min-height: 80vh;
         padding-bottom: 40px;
     }
 
     .header .main-header h3 {
         color: white;
-        font-size: 45px;
+        font-size: 40px;
         font-weight: 600;
         margin-top: 200px;
     }
@@ -136,7 +136,7 @@
     /* footer - section */
     .footer {
         background-color: #51643d;
-        padding: 20px 0 1px 0;
+        padding: 20px 15px 1px 15px;
         color: white;
     }
 
