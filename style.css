@@ -7,7 +7,6 @@
 
     /* navbar */
     .header .navbar {
-        z-index: 999;
         background-color: #51643d;
     }
 
@@ -48,8 +47,8 @@
     /* about-section */
 
     .about {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 55px;
+        padding-bottom: 55px;
         background-color: #ebe5d0;
     }
 
@@ -60,7 +59,7 @@
     }
 
     .about h3 {
-        font-size: 35px;
+        font-size: 30px;
         font-weight: 600;
     }
 
@@ -73,19 +72,19 @@
     }
 
     .about button {
-        width: 150px;
-        height: 55px;
+        width: 120px;
+        height: 45px;
     }
 
     /* product */
     .product {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 55px;
+        padding-bottom: 55px;
         background-color: #ffd56b;
     }
 
     .product h3 {
-        font: 600 35px 'hind', sans-serif;
+        font: 600 30px 'hind', sans-serif;
     }
 
     .product .card {
@@ -95,7 +94,7 @@
     /* service-section */
 
     .service {
-        padding: 40px 0 40px 0;
+        padding: 55px 0 55px 0;
         background-color: #ebe5d0;
     }
 
@@ -106,7 +105,7 @@
     }
 
     .service h3 {
-        font: 600 35px 'hind', sans-serif;
+        font: 600 30px 'hind', sans-serif;
     }
 
     .service .accordion {
@@ -128,6 +127,35 @@
 
     .service .accordion button {
         font: 500 18px 'hind', sans-serif;
+    }
+
+    /* contact - section */
+    .contact {
+        padding-top: 55px;
+        padding-bottom: 55px;
+        background-color: #ffd56b;
+    }
+
+    .contact h3 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .contact iframe {
+        padding-bottom: 30px;
+        object-fit: cover;
+        width: 100%;
+        height: 300px;
+    }
+
+    .contact .form-control {
+        border: none;
+        border-radius: 0%;
+    }
+
+    .contact .btn {
+        width: 120px;
+        height: 45px;
     }
 
     /* footer - section */
@@ -152,7 +180,6 @@
 
     /* navbar */
     .header .navbar {
-        height: 70px;
         background-color: #51643d;
     }
 
@@ -175,7 +202,7 @@
 
     .header .main-header h3 {
         color: white;
-        font-size: 55px;
+        font-size: 35px;
         font-weight: 600;
         margin-top: 200px;
     }
@@ -195,7 +222,7 @@
 
     .about {
         min-height: 1080px;
-        padding-top: 40px;
+        padding-top: 55px;
         background-color: #ebe5d0;
     }
 
@@ -206,7 +233,7 @@
     }
 
     .about h3 {
-        font-size: 40px;
+        font-size: 35px;
         font-weight: 600;
     }
 
@@ -219,19 +246,19 @@
     }
 
     .about button {
-        width: 150px;
-        height: 55px;
+        width: 120px;
+        height: 45px;
     }
 
     /* product */
     .product {
-        padding-top: 40px;
+        padding-top: 55px;
         padding-bottom: 40px;
         background-color: #ffd56b;
     }
 
     .product h3 {
-        font: 600 40px 'hind', sans-serif;
+        font: 600 35px 'hind', sans-serif;
     }
 
     .product .card {
@@ -242,7 +269,7 @@
 
     .service {
         min-height: 1080px;
-        padding-top: 40px;
+        padding-top: 55px;
         background-color: #ebe5d0;
     }
 
@@ -253,7 +280,7 @@
     }
 
     .service h3 {
-        font: 600 40px 'hind', sans-serif;
+        font: 600 35px 'hind', sans-serif;
     }
 
     .service .accordion {
@@ -277,6 +304,34 @@
         font: 500 18px 'hind', sans-serif;
     }
 
+    /* contact - section */
+    .contact {
+        padding-top: 75px;
+        padding-bottom: 75px;
+        background-color: #ffd56b;
+    }
+
+    .contact h3 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    .contact iframe {
+        object-fit: cover;
+        width: 100%;
+        height: 300px;
+    }
+
+    .contact .form-control {
+        border: none;
+        border-radius: 0%;
+    }
+
+    .contact .btn {
+        width: 120px;
+        height: 45px;
+    }
+
     /* footer - section */
     .footer {
         background-color: #51643d;
@@ -298,7 +353,6 @@
 
     /* navbar */
     .header .navbar {
-        height: 70px;
         background-color: #51643d;
     }
 
@@ -352,7 +406,7 @@
     }
 
     .about h3 {
-        font-size: 40px;
+        font-size: 35px;
         font-weight: 600;
     }
 
@@ -365,19 +419,19 @@
     }
 
     .about button {
-        width: 150px;
-        height: 55px;
+        width: 120px;
+        height: 45px;
     }
 
     /* product */
     .product {
         padding-top: 60px;
-        padding-bottom: 80px;
+        padding-bottom: 60px;
         background-color: #ffd56b;
     }
 
     .product h3 {
-        font: 600 40px 'hind', sans-serif;
+        font: 600 35px 'hind', sans-serif;
     }
 
     /* service-section */
@@ -415,6 +469,38 @@
         font: 500 18px 'hind', sans-serif;
     }
 
+    /* contact - section */
+    .contact {
+        padding-top: 75px;
+        padding-bottom: 100px;
+        background-color: #ffd56b;
+    }
+
+    .contact h3 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    .contact iframe {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .contact .form-control {
+        border: none;
+        border-radius: 0%;
+    }
+
+    .contact .marbel {
+        padding-top: 60px;
+    }
+
+    .contact .btn {
+        width: 120px;
+        height: 45px;
+    }
+
     /* footer - section */
     .footer {
         background-color: #51643d;
@@ -437,7 +523,6 @@
 
     /* navbar */
     .header .navbar {
-        height: 70px;
         background-color: #51643d;
     }
 
@@ -491,7 +576,7 @@
     }
 
     .about h3 {
-        font-size: 45px;
+        font-size: 40px;
         font-weight: 600;
     }
 
@@ -504,8 +589,8 @@
     }
 
     .about button {
-        width: 150px;
-        height: 55px;
+        width: 120px;
+        height: 45px;
     }
 
     /* product */
@@ -516,7 +601,7 @@
     }
 
     .product h3 {
-        font: 600 45px 'hind', sans-serif;
+        font: 600 40px 'hind', sans-serif;
     }
 
     /* service-section */
@@ -534,7 +619,7 @@
     }
 
     .service h3 {
-        font: 600 45px 'hind', sans-serif;
+        font: 600 40px 'hind', sans-serif;
     }
 
     .service .accordion-header .accordion-button {
@@ -552,6 +637,38 @@
 
     .service .accordion button {
         font: 500 20px 'hind', sans-serif;
+    }
+
+    /* contact - section */
+    .contact {
+        padding-top: 75px;
+        padding-bottom: 110px;
+        background-color: #ffd56b;
+    }
+
+    .contact h3 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .contact iframe {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .contact .form-control {
+        border: none;
+        border-radius: 0%;
+    }
+
+    .contact .marbel {
+        padding-top: 60px;
+    }
+
+    .contact .btn {
+        width: 120px;
+        height: 45px;
     }
 
     /* footer - section */
@@ -643,14 +760,14 @@
     }
 
     .about button {
-        width: 150px;
-        height: 55px;
+        width: 120px;
+        height: 45px;
     }
 
     /* product */
     .product {
-        padding-top: 80px;
-        padding-bottom: 150px;
+        padding-top: 75px;
+        padding-bottom: 75px;
         background-color: #ffd56b;
     }
 
@@ -691,6 +808,38 @@
 
     .service .accordion button {
         font: 500 20px 'hind', sans-serif;
+    }
+
+    /* contact - section */
+    .contact {
+        padding-top: 75px;
+        padding-bottom: 75px;
+        background-color: #ffd56b;
+    }
+
+    .contact h3 {
+        font-size: 45px;
+        font-weight: 600;
+    }
+
+    .contact iframe {
+        object-fit: cover;
+        width: 100%;
+        height: 380px;
+    }
+
+    .contact .form-control {
+        border: none;
+        border-radius: 0%;
+    }
+
+    .contact .marbel {
+        padding-top: 60px;
+    }
+
+    .contact .btn {
+        width: 120px;
+        height: 45px;
     }
 
     /* footer - section */
@@ -758,7 +907,7 @@
 
     .about {
         min-height: 800px;
-        padding-top: 70px;
+        padding-top: 75px;
         background-color: #ebe5d0;
     }
 
@@ -782,19 +931,24 @@
     }
 
     .about button {
-        width: 150px;
-        height: 55px;
+        width: 120px;
+        height: 45px;
     }
 
     /* product */
     .product {
-        padding-top: 80px;
-        padding-bottom: 150px;
+        padding-top: 75px;
+        padding-bottom: 75px;
         background-color: #ffd56b;
     }
 
     .product h3 {
         font: 600 50px 'hind', sans-serif;
+    }
+
+    .product .card {
+        border: none;
+        border-radius: 0%;
     }
 
     /* service-section */
@@ -830,6 +984,38 @@
 
     .service .accordion button {
         font: 500 20px 'hind', sans-serif;
+    }
+
+    /* contact - section */
+    .contact {
+        padding-top: 75px;
+        padding-bottom: 40px;
+        background-color: #ffd56b;
+    }
+
+    .contact h3 {
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    .contact iframe {
+        object-fit: cover;
+        width: 100%;
+        height: 400px;
+    }
+
+    .contact .form-control {
+        border: none;
+        border-radius: 0%;
+    }
+
+    .contact .marbel {
+        padding-top: 70px;
+    }
+
+    .contact .btn {
+        width: 120px;
+        height: 45px;
     }
 
     /* footer - section */
