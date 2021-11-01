@@ -1,1032 +1,249 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
-
-
-    body {
-        font-family: 'hind', sans-serif;
-    }
-
-    /* navbar */
-    .header .navbar {
-        background-color: #51643d;
-    }
-
-    .navbar-dark .navbar-toggler {
-        color: rgba(255, 255, 255, 0);
-        border-color: rgba(255, 255, 255, 0);
-    }
-
-    /* main-header-section */
-
-    .header {
-    background-color: #51643d;
-    }
-
-    .header .main-header {
-        min-height: 60vh;
-        padding-bottom: 40px;
-    }
-
-    .header .main-header h3 {
-        color: white;
-        font-size: 30px;
-        font-weight: 600;
-        margin-top: 17vh;
-    }
-
-    .header .main-header h3 span {
-        color: #ffd56b;
-    }
-
-    .header .main-header p {
-        color: white;
-        opacity: 0.6;
-        margin-top: 20px;
-        font-size: 18px;
-    }
-    
-    /* about-section */
-
-    .about {
-        padding-top: 55px;
-        padding-bottom: 55px;
-        background-color: #ebe5d0;
-    }
-
-    .about img {
-        width: 100%;
-        height: 350px;
-        object-fit: cover;
-    }
-
-    .about h3 {
-        font-size: 30px;
-        font-weight: 600;
-    }
-
-    .about p {
-        font-size: 18px;
-    }
-
-    .about .text {
-        margin-top: 30px;
-    }
-
-    .about button {
-        width: 120px;
-        height: 45px;
-    }
-
-    /* product */
-    .product {
-        padding-top: 55px;
-        padding-bottom: 55px;
-        background-color: #ffd56b;
-    }
-
-    .product h3 {
-        font: 600 30px 'hind', sans-serif;
-    }
-
-    .product .card {
-        margin-bottom: 30px;
-    }
-
-    /* service-section */
-
-    .service {
-        padding: 55px 0 55px 0;
-        background-color: #ebe5d0;
-    }
-
-    .service img {
-        width: 100%;
-        height: 400px;
-        object-fit: cover;
-    }
-
-    .service h3 {
-        font: 600 30px 'hind', sans-serif;
-    }
-
-    .service .accordion {
-        margin-bottom: 30px;
-    }
-
-    .service .accordion-header .accordion-button {
-        background-color: #ebe5d0;
-        border-collapse: collapse;
-    }
-    .service .accordion-header button {
-        color: black;
-        border: none;
-    }
-
-    .service .accordion-item {
-        background-color: #ebe5d0;
-    }
-
-    .service .accordion button {
-        font: 500 18px 'hind', sans-serif;
-    }
-
-    /* contact - section */
-    .contact {
-        padding-top: 55px;
-        padding-bottom: 55px;
-        background-color: #ffd56b;
-    }
-
-    .contact h3 {
-        font-size: 30px;
-        font-weight: 600;
-    }
-
-    .contact iframe {
-        padding-bottom: 30px;
-        object-fit: cover;
-        width: 100%;
-        height: 300px;
-    }
-
-    .contact .form-control {
-        border: none;
-        border-radius: 0%;
-    }
-
-    .contact .btn {
-        width: 120px;
-        height: 45px;
-    }
-
-    /* footer - section */
-    .footer {
-        background-color: #51643d;
-        padding: 20px 15px 1px 15px;
-        color: white;
-    }
-
-    .footer a {
-        color: white;
-        text-decoration: none;
-    }
-
-/* RESPONSIVE BREAKPOINT */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
 @media (min-width: 575.98px) {
-
-    body {
-        font-family: 'hind', sans-serif;
-    }
-
-    /* navbar */
-    .header .navbar {
-        background-color: #51643d;
-    }
-
-    .header .navbar a {
-        color: white;
-        margin-left: 15px;
-        font-size: 15px;
-        font-weight: 400;
-    }
-
-    /* main-header-section */
-
-    .header {
-    background-color: #51643d;
-    }
-
-    .header .main-header {
-        min-height: 75vh;
-    }
-
-    .header .main-header h3 {
-        color: white;
-        font-size: 35px;
-        font-weight: 600;
-        margin-top: 200px;
-    }
-
-    .header .main-header h3 span {
-        color: #ffd56b;
-    }
-
-    .header .main-header p {
-        color: white;
-        opacity: 0.6;
-        margin-top: 20px;
-        font-size: 20px;
-    }
-    
-    /* about-section */
-
-    .about {
-        min-height: 1080px;
-        padding-top: 55px;
-        background-color: #ebe5d0;
-    }
-
-    .about img {
-        width: 100%;
-        height: 515px;
-        object-fit: cover;
-    }
-
-    .about h3 {
-        font-size: 35px;
-        font-weight: 600;
-    }
-
-    .about p {
-        font-size: 18px;
-    }
-
-    .about .text {
-        margin-top: 30px;
-    }
-
-    .about button {
-        width: 120px;
-        height: 45px;
-    }
-
-    /* product */
-    .product {
-        padding-top: 55px;
-        padding-bottom: 40px;
-        background-color: #ffd56b;
-    }
-
-    .product h3 {
-        font: 600 35px 'hind', sans-serif;
-    }
-
-    .product .card {
-        margin-bottom: 30px;
-    }
-
-    /* service-section */
-
-    .service {
-        min-height: 1080px;
-        padding-top: 55px;
-        background-color: #ebe5d0;
-    }
-
-    .service img {
-        width: 100%;
-        height: 550px;
-        object-fit: cover;
-    }
-
-    .service h3 {
-        font: 600 35px 'hind', sans-serif;
-    }
-
-    .service .accordion {
-        margin-bottom: 30px;
-    }
-
-    .service .accordion-header .accordion-button {
-        background-color: #ebe5d0;
-        border-collapse: collapse;
-    }
-    .service .accordion-header button {
-        color: black;
-        border: none;
-    }
-
-    .service .accordion-item {
-        background-color: #ebe5d0;
-    }
-
-    .service .accordion button {
-        font: 500 18px 'hind', sans-serif;
-    }
-
-    /* contact - section */
-    .contact {
-        padding-top: 75px;
-        padding-bottom: 75px;
-        background-color: #ffd56b;
-    }
-
-    .contact h3 {
-        font-size: 35px;
-        font-weight: 600;
-    }
-
-    .contact iframe {
-        object-fit: cover;
-        width: 100%;
-        height: 300px;
-    }
-
-    .contact .form-control {
-        border: none;
-        border-radius: 0%;
-    }
-
-    .contact .btn {
-        width: 120px;
-        height: 45px;
-    }
-
-    /* footer - section */
-    .footer {
-        background-color: #51643d;
-        padding: 20px 0 1px 0;
-        color: white;
-    }
-
-    .footer a {
-        color: white;
-        text-decoration: none;
-    }
 }
 
 @media (min-width: 767.98px) {
-
-    body {
-        font-family: 'hind', sans-serif;
-    }
-
-    /* navbar */
-    .header .navbar {
-        background-color: #51643d;
-    }
-
-    .header .navbar a {
-        color: white;
-        margin-left: 15px;
-        font-size: 15px;
-        font-weight: 400;
-    }
-
-    /* main-header-section */
-
-    .header {
-    background-color: #51643d;
-    }
-
-    .header .main-header {
-        min-height: 70vh;
-    }
-
-    .header .main-header h3 {
-        color: white;
-        font-size: 50px;
-        font-weight: 600;
-        margin-top: 200px;
-    }
-
-    .header .main-header h3 span {
-        color: #ffd56b;
-    }
-
-    .header .main-header p {
-        color: white;
-        opacity: 0.6;
-        margin-top: 20px;
-        font-size: 19px;
-    }
-    
-    /* about-section */
-
-    .about {
-        min-height: 700px;
-        padding-top: 60px;
-        background-color: #ebe5d0;
-    }
-
-    .about img {
-        width: 100%;
-        height: 515px;
-        object-fit: cover;
-    }
-
-    .about h3 {
-        font-size: 35px;
-        font-weight: 600;
-    }
-
-    .about p {
-        font-size: 18px;
-    }
-
-    .about .text {
-        margin-top: 55px;
-    }
-
-    .about button {
-        width: 120px;
-        height: 45px;
-    }
-
-    /* product */
-    .product {
-        padding-top: 60px;
-        padding-bottom: 60px;
-        background-color: #ffd56b;
-    }
-
-    .product h3 {
-        font: 600 35px 'hind', sans-serif;
-    }
-
-    /* service-section */
-
-    .service {
-        min-height: 700px;
-        padding-top: 75px;
-        background-color: #ebe5d0;
-    }
-
-    .service img {
-        width: 100%;
-        height: 550px;
-        object-fit: cover;
-    }
-
-    .service h3 {
-        font: 600 30px 'hind', sans-serif;
-    }
-
-    .service .accordion-header .accordion-button {
-        background-color: #ebe5d0;
-        border-collapse: collapse;
-    }
-    .service .accordion-header button {
-        color: black;
-        border: none;
-    }
-
-    .service .accordion-item {
-        background-color: #ebe5d0;
-    }
-
-    .service .accordion button {
-        font: 500 18px 'hind', sans-serif;
-    }
-
-    /* contact - section */
-    .contact {
-        padding-top: 75px;
-        padding-bottom: 100px;
-        background-color: #ffd56b;
-    }
-
-    .contact h3 {
-        font-size: 35px;
-        font-weight: 600;
-    }
-
-    .contact iframe {
-        object-fit: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-    .contact .form-control {
-        border: none;
-        border-radius: 0%;
-    }
-
-    .contact .marbel {
-        padding-top: 60px;
-    }
-
-    .contact .btn {
-        width: 120px;
-        height: 45px;
-    }
-
-    /* footer - section */
-    .footer {
-        background-color: #51643d;
-        padding: 20px 0 1px 0;
-        color: white;
-    }
-
-    .footer a {
-        color: white;
-        text-decoration: none;
-    }
-
 }
 
 @media (min-width: 991.98px) {
-
-    body {
-        font-family: 'hind', sans-serif;
-    }
-
-    /* navbar */
-    .header .navbar {
-        background-color: #51643d;
-    }
-
-    .header .navbar a {
-        color: white;
-        margin-left: 15px;
-        font-size: 15px;
-        font-weight: 400;
-    }
-
-    /* main-header-section */
-
-    .header {
-    background-color: #51643d;
-    }
-
-    .header .main-header {
-        min-height: 80vh;
-    }
-
-    .header .main-header h3 {
-        color: white;
-        font-size: 55px;
-        font-weight: 600;
-        margin-top: 200px;
-    }
-
-    .header .main-header h3 span {
-        color: #ffd56b;
-    }
-
-    .header .main-header p {
-        color: white;
-        opacity: 0.6;
-        margin-top: 20px;
-        font-size: 19px;
-    }
-    
-    /* about-section */
-
-    .about {
-        min-height: 700px;
-        padding-top: 60px;
-        background-color: #ebe5d0;
-    }
-
-    .about img {
-        width: 100%;
-        height: 500px;
-        object-fit: cover;
-    }
-
-    .about h3 {
-        font-size: 40px;
-        font-weight: 600;
-    }
-
-    .about p {
-        font-size: 19px;
-    }
-
-    .about .text {
-        margin-top: 50px;
-    }
-
-    .about button {
-        width: 120px;
-        height: 45px;
-    }
-
-    /* product */
-    .product {
-        padding-top: 80px;
-        padding-bottom: 150px;
-        background-color: #ffd56b;
-    }
-
-    .product h3 {
-        font: 600 40px 'hind', sans-serif;
-    }
-
-    /* service-section */
-
-    .service {
-        min-height: 700px;
-        padding-top: 75px;
-        background-color: #ebe5d0;
-    }
-
-    .service img {
-        width: 100%;
-        height: 550px;
-        object-fit: cover;
-    }
-
-    .service h3 {
-        font: 600 40px 'hind', sans-serif;
-    }
-
-    .service .accordion-header .accordion-button {
-        background-color: #ebe5d0;
-        border-collapse: collapse;
-    }
-    .service .accordion-header button {
-        color: black;
-        border: none;
-    }
-
-    .service .accordion-item {
-        background-color: #ebe5d0;
-    }
-
-    .service .accordion button {
-        font: 500 20px 'hind', sans-serif;
-    }
-
-    /* contact - section */
-    .contact {
-        padding-top: 75px;
-        padding-bottom: 110px;
-        background-color: #ffd56b;
-    }
-
-    .contact h3 {
-        font-size: 40px;
-        font-weight: 600;
-    }
-
-    .contact iframe {
-        object-fit: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-    .contact .form-control {
-        border: none;
-        border-radius: 0%;
-    }
-
-    .contact .marbel {
-        padding-top: 60px;
-    }
-
-    .contact .btn {
-        width: 120px;
-        height: 45px;
-    }
-
-    /* footer - section */
-    .footer {
-        background-color: #51643d;
-        padding: 20px 0 1px 0;
-        color: white;
-    }
-
-    .footer a {
-        color: white;
-        text-decoration: none;
-    }
 }
 
 @media (min-width: 1199.98px) {
-
-    body {
-        font-family: 'hind', sans-serif;
-    }
-
-    /* navbar */
-    .header .navbar {
-        height: 65px;
-        background-color: #51643d;
-    }
-
-    .header .navbar a {
-        color: white;
-        margin-left: 15px;
-        font-size: 15px;
-        font-weight: 400;
-    }
-
-    /* main-header-section */
-
-    .header {
-        min-height: 800px;
-        background-color: #51643d;
-    }
-
-    .header .main-header {
-        min-height: 70vh;
-    }
-
-    .header .main-header h3 {
-        color: white;
-        font-size: 57px;
-        font-weight: 600;
-        margin-top: 230px;
-    }
-
-    .header .main-header h3 span {
-        color: #ffd56b;
-    }
-
-    .header .main-header p {
-        color: white;
-        opacity: 0.6;
-        margin-top: 20px;
-        font-size: 24px;
-    }
-    
-    /* about-section */
-
-    .about {
-        min-height: 800px;
-        padding-top: 70px;
-        background-color: #ebe5d0;
-    }
-
-    .about img {
-        width: 100%;
-        height: 593px;
-        object-fit: cover;
-    }
-
-    .about h3 {
-        font-size: 45px;
-        font-weight: 600;
-    }
-
-    .about p {
-        font-size: 24px;
-    }
-
-    .about .text {
-        margin-top: 60px;
-    }
-
-    .about button {
-        width: 120px;
-        height: 45px;
-    }
-
-    /* product */
-    .product {
-        padding-top: 75px;
-        padding-bottom: 75px;
-        background-color: #ffd56b;
-    }
-
-    .product h3 {
-        font: 600 45px 'hind', sans-serif;
-    }
-
-    /* service-section */
-
-    .service {
-        min-height: 700px;
-        padding-top: 75px;
-        background-color: #ebe5d0;
-    }
-
-    .service img {
-        width: 100%;
-        height: 550px;
-        object-fit: cover;
-    }
-
-    .service h3 {
-        font: 600 45px 'hind', sans-serif;
-    }
-
-    .service .accordion-header .accordion-button {
-        background-color: #ebe5d0;
-        border-collapse: collapse;
-    }
-    .service .accordion-header button {
-        color: black;
-        border: none;
-    }
-
-    .service .accordion-item {
-        background-color: #ebe5d0;
-    }
-
-    .service .accordion button {
-        font: 500 20px 'hind', sans-serif;
-    }
-
-    /* contact - section */
-    .contact {
-        padding-top: 75px;
-        padding-bottom: 75px;
-        background-color: #ffd56b;
-    }
-
-    .contact h3 {
-        font-size: 45px;
-        font-weight: 600;
-    }
-
-    .contact iframe {
-        object-fit: cover;
-        width: 100%;
-        height: 380px;
-    }
-
-    .contact .form-control {
-        border: none;
-        border-radius: 0%;
-    }
-
-    .contact .marbel {
-        padding-top: 60px;
-    }
-
-    .contact .btn {
-        width: 120px;
-        height: 45px;
-    }
-
-    /* footer - section */
-    .footer {
-        background-color: #51643d;
-        padding: 20px 0 1px 0;
-        color: white;
-    }
-
-    .footer a {
-        color: white;
-        text-decoration: none;
-    }
 }
 
 @media (min-width: 1399.98px) {
+  body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+  }
 
-    body {
-        font-family: 'hind', sans-serif;
-    }
+  /* navbar */
+  .header .navbar {
+    background-color: rgb(0, 0, 0);
+    height: 65px;
+  }
+  .header .navbar-nav a {
+    margin-left: 20px;
+  }
 
-    /* navbar */
-    .header .navbar {
-        height: 70px;
-        background-color: #51643d;
-    }
+  /* main-header-section */
 
-    .header .navbar a {
-        color: white;
-        margin-left: 15px;
-        font-size: 15px;
-        font-weight: 400;
-    }
+  .header .main-header {
+    min-height: 100vh;
+  }
 
-    /* main-header-section */
+  .header .main-header h3 {
+    font-size: 80px;
+    font-weight: 600;
+    margin-top: 250px;
+  }
 
-    .header {
-    min-height: 800px;
-    background-color: #51643d;
-    }
+  .header .main-header p {
+    opacity: 0.6;
+    margin-top: 20px;
+    font-size: 20px;
+  }
 
-    .header .main-header {
-        min-height: 88vh;
-    }
+  .header img {
+    position: relative;
+    width: 500px;
+    top: 200px;
+    left: 150px;
+  }
 
-    .header .main-header h3 {
-        color: white;
-        font-size: 65px;
-        font-weight: 600;
-        margin-top: 230px;
-    }
+  .header .main-header input {
+    border-radius: 0%;
+  }
 
-    .header .main-header h3 span {
-        color: #ffd56b;
-    }
+  .header .main-header button {
+    width: 120px;
+    height: 45px;
+    background-color: #000000;
+    border: none;
+    border-radius: 0%;
+  }
 
-    .header .main-header p {
-        color: white;
-        opacity: 0.6;
-        margin-top: 20px;
-        font-size: 24px;
-    }
-    
-    /* about-section */
+  /* about-section */
 
-    .about {
-        min-height: 800px;
-        padding-top: 75px;
-        background-color: #ebe5d0;
-    }
+  .about {
+    min-height: 500px;
+    padding-top: 70px;
+  }
 
-    .about img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
+  .about img {
+    position: relative;
+    width: 75%;
+    bottom: 30px;
+    left: 50px;
+    object-fit: cover;
+  }
 
-    .about h3 {
-        font-size: 50px;
-        font-weight: 600;
-    }
+  .about h3 {
+    font-size: 40px;
+    font-weight: 600;
+  }
 
-    .about p {
-        font-size: 24px;
-    }
+  .about .text {
+    margin-top: 1.5rem;
+    font-size: 18px;
+  }
 
-    .about .text {
-        margin-top: 100px;
-    }
+  .about button {
+    width: 120px;
+    height: 45px;
+    background-color: #000000;
+    border: none;
+    border-radius: 0%;
+  }
 
-    .about button {
-        width: 120px;
-        height: 45px;
-    }
+  /* product */
+  .product {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
 
-    /* product */
-    .product {
-        padding-top: 75px;
-        padding-bottom: 75px;
-        background-color: #ffd56b;
-    }
+  .product h3 {
+    font-size: 40px;
+    font-weight: 600;
+  }
 
-    .product h3 {
-        font: 600 50px 'hind', sans-serif;
-    }
+  .product p {
+    font-size: 16px;
+  }
 
-    .product .card {
-        border: none;
-        border-radius: 0%;
-    }
+  .product .card {
+    margin-top: 1.5rem;
+    border: none;
+    border-radius: 0%;
+  }
 
-    /* service-section */
+  .product img {
+    height: 300px;
+    border-radius: 0%;
+    object-fit: cover;
+  }
 
-    .service {
-        min-height: 700px;
-        padding-top: 75px;
-        background-color: #ebe5d0;
-    }
+  .product .btn {
+    width: 120px;
+    height: 45px;
+    background-color: #000000;
+    border: none;
+    border-radius: 0%;
+    align-content: center;
+  }
 
-    .service img {
-        width: 100%;
-        height: 550px;
-        object-fit: cover;
-    }
+  /* Blog - section */
+  .blog {
+    min-height: 600px;
+    padding-top: 70px;
+  }
+  .blog h3 {
+    font-size: 40px;
+    font-weight: 600;
+  }
 
-    .service h3 {
-        font: 600 50px 'hind', sans-serif;
-    }
+  .blog .mogh-blog {
+    margin-top: 1.5rem;
+  }
 
-    .service .accordion-header .accordion-button {
-        background-color: #ebe5d0;
-        border-collapse: collapse;
-    }
-    .service .accordion-header button {
-        color: black;
-        border: none;
-    }
+  .blog img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+  }
 
-    .service .accordion-item {
-        background-color: #ebe5d0;
-    }
+  .blog .blog-list {
+    margin-top: 30px;
+  }
 
-    .service .accordion button {
-        font: 500 20px 'hind', sans-serif;
-    }
+  /* faq-section */
 
-    /* contact - section */
-    .contact {
-        padding-top: 75px;
-        padding-bottom: 40px;
-        background-color: #ffd56b;
-    }
+  .faq {
+    min-height: 600px;
+    padding-top: 70px;
+  }
 
-    .contact h3 {
-        font-size: 50px;
-        font-weight: 600;
-    }
+  .faq h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+  }
 
-    .contact iframe {
-        object-fit: cover;
-        width: 100%;
-        height: 400px;
-    }
+  .faq .accordion {
+    width: 60rem;
+    margin-top: 1.5rem;
+  }
 
-    .contact .form-control {
-        border: none;
-        border-radius: 0%;
-    }
+  .faq .accordion-header button {
+    color: #000000;
+  }
 
-    .contact .marbel {
-        padding-top: 70px;
-    }
+  .faq .accordion button {
+    font-size: 20px;
+    font-weight: 500;
+  }
 
-    .contact .btn {
-        width: 120px;
-        height: 45px;
-    }
+  .faq .accordion button:focus {
+    border-color: #ffffff;
+    box-shadow: none;
+  }
 
-    /* footer - section */
-    .footer {
-        background-color: #51643d;
-        padding: 20px 0 1px 0;
-        color: white;
-    }
+  .faq .accordion-button:not(.collapsed) {
+    background-color: #ffffff;
+  }
 
-    .footer a {
-        color: white;
-        text-decoration: none;
-    }
+  .faq .accordion-button:not(.collapsed)::after {
+    color: black;
+  }
+
+  /* contact - section */
+  .contact {
+    min-height: 700px;
+    padding-top: 70px;
+  }
+
+  .contact h3 {
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+  .contact iframe {
+    object-fit: cover;
+    width: 100%;
+    height: 550px;
+  }
+
+  .contact .form-control {
+    border-radius: 0%;
+  }
+
+  .contact input[type="text"] {
+    height: 45px;
+  }
+
+  .contact input[type="email"] {
+    height: 45px;
+  }
+
+  .contact .btn {
+    width: 120px;
+    height: 45px;
+    background-color: #000000;
+    border: none;
+    border-radius: 0%;
+  }
+
+  /* footer - section */
+  .footer {
+    height: 120px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+  }
+
+  .footer p a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
 }
