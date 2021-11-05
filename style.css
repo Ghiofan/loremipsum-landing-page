@@ -1,249 +1,311 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
-@media (min-width: 575.98px) {
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
 }
 
-@media (min-width: 767.98px) {
+/* navbar */
+.header .navbar {
+  background-color: rgb(0, 0, 0);
+  height: 65px;
+}
+.header .navbar-nav a {
+  margin-left: 20px;
 }
 
-@media (min-width: 991.98px) {
+/* main-header-section */
+
+.header .main-header {
+  min-height: 100vh;
 }
 
-@media (min-width: 1199.98px) {
+.header .main-header h3 {
+  font-size: 80px;
+  font-weight: 600;
+  margin-top: 250px;
 }
 
-@media (min-width: 1399.98px) {
-  body {
-    background-color: #ffffff;
-    color: #000000;
-    font-family: "Poppins", sans-serif;
-  }
+.header .main-header p {
+  opacity: 0.6;
+  margin-top: 20px;
+  font-size: 20px;
+}
 
-  /* navbar */
-  .header .navbar {
-    background-color: rgb(0, 0, 0);
-    height: 65px;
-  }
-  .header .navbar-nav a {
-    margin-left: 20px;
-  }
+.header img {
+  position: relative;
+  width: 100%;
+  top: 200px;
+  left: 150px;
+}
 
-  /* main-header-section */
+.header .main-header input {
+  border-radius: 0%;
+}
 
-  .header .main-header {
-    min-height: 100vh;
-  }
+.header .main-header button {
+  width: 120px;
+  height: 45px;
+  background-color: #000000;
+  border: none;
+  border-radius: 0%;
+}
 
+/* about-section */
+
+.about {
+  min-height: 500px;
+  padding-top: 70px;
+}
+
+.about img {
+  position: relative;
+  width: 480px;
+  bottom: 30px;
+  left: 50px;
+  object-fit: cover;
+}
+
+.about h3 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.about p {
+  font-size: 18px;
+}
+
+.about .text {
+  margin-top: 1.5rem;
+}
+
+.about button {
+  width: 120px;
+  height: 45px;
+  background-color: #000000;
+  border: none;
+  border-radius: 0%;
+}
+
+/* product */
+.product {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.product h3 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.product p {
+  font-size: 16px;
+}
+
+.product .card {
+  margin-top: 1.5rem;
+  border: none;
+  border-radius: 0%;
+}
+
+.product img {
+  height: 300px;
+  border-radius: 0%;
+  object-fit: cover;
+}
+
+.product .btn {
+  width: 120px;
+  height: 45px;
+  background-color: #000000;
+  border: none;
+  border-radius: 0%;
+  align-content: center;
+}
+
+/* Blog - section */
+.blog {
+  min-height: 600px;
+  padding-top: 70px;
+}
+.blog h3 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.blog img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.blog .blog-list {
+  margin-top: 30px;
+}
+
+/* faq-section */
+
+.faq {
+  min-height: 600px;
+  padding-top: 70px;
+}
+
+.faq h3 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.faq .accordion {
+  width: 60rem;
+  margin-top: 1.5rem;
+}
+
+.faq .accordion-header button {
+  color: #000000;
+}
+
+.faq .accordion button {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.faq .accordion button:focus {
+  border-color: #ffffff;
+  box-shadow: none;
+}
+
+.faq .accordion-button:not(.collapsed) {
+  background-color: #ffffff;
+}
+
+.faq .accordion-button:not(.collapsed)::after {
+  color: black;
+}
+
+/* contact - section */
+.contact {
+  min-height: 750px;
+  padding-top: 70px;
+}
+
+.contact h3 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.contact iframe {
+  object-fit: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.contact .form-control {
+  border-radius: 0%;
+}
+
+.contact input[type="text"] {
+  height: 45px;
+}
+
+.contact input[type="email"] {
+  height: 45px;
+}
+
+.contact .btn {
+  width: 120px;
+  height: 45px;
+  background-color: #000000;
+  border: none;
+  border-radius: 0%;
+}
+
+/* footer - section */
+.footer {
+  height: 120px;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+.footer p a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+@media (max-width: 575.98px) {
+  /* header-section */
   .header .main-header h3 {
-    font-size: 80px;
-    font-weight: 600;
-    margin-top: 250px;
+    font-size: 44px;
+    margin-top: 150px;
   }
 
   .header .main-header p {
-    opacity: 0.6;
-    margin-top: 20px;
-    font-size: 20px;
-  }
-
-  .header img {
-    position: relative;
-    width: 500px;
-    top: 200px;
-    left: 150px;
-  }
-
-  .header .main-header input {
-    border-radius: 0%;
-  }
-
-  .header .main-header button {
-    width: 120px;
-    height: 45px;
-    background-color: #000000;
-    border: none;
-    border-radius: 0%;
-  }
-
-  /* about-section */
-
-  .about {
-    min-height: 500px;
-    padding-top: 70px;
-  }
-
-  .about img {
-    position: relative;
-    width: 75%;
-    bottom: 30px;
-    left: 50px;
-    object-fit: cover;
-  }
-
-  .about h3 {
-    font-size: 40px;
-    font-weight: 600;
-  }
-
-  .about .text {
-    margin-top: 1.5rem;
-    font-size: 18px;
-  }
-
-  .about button {
-    width: 120px;
-    height: 45px;
-    background-color: #000000;
-    border: none;
-    border-radius: 0%;
-  }
-
-  /* product */
-  .product {
-    padding-top: 75px;
-    padding-bottom: 75px;
-  }
-
-  .product h3 {
-    font-size: 40px;
-    font-weight: 600;
-  }
-
-  .product p {
     font-size: 16px;
   }
 
-  .product .card {
-    margin-top: 1.5rem;
-    border: none;
-    border-radius: 0%;
+  /* about-section */
+  .about img {
+    width: 200px;
   }
 
-  .product img {
-    height: 300px;
-    border-radius: 0%;
-    object-fit: cover;
+  .about h3 {
+    font-size: 34px;
   }
 
-  .product .btn {
-    width: 120px;
-    height: 45px;
-    background-color: #000000;
-    border: none;
-    border-radius: 0%;
-    align-content: center;
+  .about p {
+    font-size: 16px;
   }
 
-  /* Blog - section */
-  .blog {
-    min-height: 600px;
-    padding-top: 70px;
-  }
-  .blog h3 {
-    font-size: 40px;
-    font-weight: 600;
+  /* product-section */
+  .product h3 {
+    font-size: 34px;
   }
 
-  .blog .mogh-blog {
-    margin-top: 1.5rem;
-  }
-
+  /* blog-section */
   .blog img {
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
+    width: 100px;
+    height: 130px;
   }
 
-  .blog .blog-list {
-    margin-top: 30px;
+  .blog h3 {
+    font-size: 34px;
+  }
+
+  .blog h5 {
+    font-size: 16px;
+  }
+
+  .blog p {
+    font-size: 14px;
   }
 
   /* faq-section */
 
-  .faq {
-    min-height: 600px;
-    padding-top: 70px;
-  }
-
   .faq h3 {
-    text-align: center;
-    font-size: 40px;
-    font-weight: 600;
-  }
-
-  .faq .accordion {
-    width: 60rem;
-    margin-top: 1.5rem;
-  }
-
-  .faq .accordion-header button {
-    color: #000000;
+    font-size: 34px;
   }
 
   .faq .accordion button {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 18px;
   }
 
-  .faq .accordion button:focus {
-    border-color: #ffffff;
-    box-shadow: none;
+  .faq .accordion .accordion-body {
+    font-size: 16px;
   }
 
-  .faq .accordion-button:not(.collapsed) {
-    background-color: #ffffff;
-  }
+  /* contact-section */
 
-  .faq .accordion-button:not(.collapsed)::after {
-    color: black;
-  }
-
-  /* contact - section */
   .contact {
-    min-height: 700px;
-    padding-top: 70px;
+    padding-bottom: 100px;
   }
 
   .contact h3 {
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 34px;
   }
 
   .contact iframe {
-    object-fit: cover;
-    width: 100%;
-    height: 550px;
-  }
-
-  .contact .form-control {
-    border-radius: 0%;
-  }
-
-  .contact input[type="text"] {
-    height: 45px;
-  }
-
-  .contact input[type="email"] {
-    height: 45px;
-  }
-
-  .contact .btn {
-    width: 120px;
-    height: 45px;
-    background-color: #000000;
-    border: none;
-    border-radius: 0%;
-  }
-
-  /* footer - section */
-  .footer {
-    height: 120px;
-    background-color: #000000;
-    color: rgb(255, 255, 255);
-  }
-
-  .footer p a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+    height: 300px;
+    margin-bottom: 50px;
   }
 }
