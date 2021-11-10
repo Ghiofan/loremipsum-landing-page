@@ -7,13 +7,6 @@ body {
 }
 
 /* navbar */
-.header .navbar {
-  background-color: rgb(0, 0, 0);
-  height: 65px;
-}
-.header .navbar-nav a {
-  margin-left: 20px;
-}
 
 /* main-header-section */
 
@@ -31,13 +24,6 @@ body {
   opacity: 0.6;
   margin-top: 20px;
   font-size: 20px;
-}
-
-.header img {
-  position: relative;
-  width: 100%;
-  top: 200px;
-  left: 150px;
 }
 
 .header .main-header input {
@@ -61,7 +47,7 @@ body {
 
 .about img {
   position: relative;
-  width: 480px;
+  width: 400px;
   bottom: 30px;
   left: 50px;
   object-fit: cover;
@@ -99,6 +85,12 @@ body {
   font-weight: 600;
 }
 
+.product h5 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+}
+
 .product p {
   font-size: 16px;
 }
@@ -125,24 +117,6 @@ body {
 }
 
 /* Blog - section */
-.blog {
-  min-height: 600px;
-  padding-top: 70px;
-}
-.blog h3 {
-  font-size: 40px;
-  font-weight: 600;
-}
-
-.blog img {
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
-}
-
-.blog .blog-list {
-  margin-top: 30px;
-}
 
 /* faq-section */
 
@@ -171,6 +145,10 @@ body {
   font-weight: 500;
 }
 
+.faq .accordion .accordion-body {
+  font-size: 16px;
+}
+
 .faq .accordion button:focus {
   border-color: #ffffff;
   box-shadow: none;
@@ -188,6 +166,10 @@ body {
 .contact {
   min-height: 750px;
   padding-top: 70px;
+}
+
+.contact h2 {
+  font-size: 28px;
 }
 
 .contact h3 {
@@ -233,79 +215,216 @@ body {
   text-decoration: none;
 }
 
-@media (max-width: 575.98px) {
-  /* header-section */
+@media (min-width: 576px) {
   .header .main-header h3 {
-    font-size: 44px;
-    margin-top: 150px;
+    font-size: 55px;
   }
 
   .header .main-header p {
-    font-size: 16px;
-  }
-
-  /* about-section */
-  .about img {
-    width: 200px;
-  }
-
-  .about h3 {
-    font-size: 34px;
+    font-size: 18px;
   }
 
   .about p {
     font-size: 16px;
   }
 
-  /* product-section */
-  .product h3 {
-    font-size: 34px;
+  .product h5 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header .main-header h3 {
+    font-size: 55px;
   }
 
-  /* blog-section */
-  .blog img {
-    width: 100px;
-    height: 130px;
-  }
-
-  .blog h3 {
-    font-size: 34px;
-  }
-
-  .blog h5 {
-    font-size: 16px;
-  }
-
-  .blog p {
-    font-size: 14px;
-  }
-
-  /* faq-section */
-
-  .faq h3 {
-    font-size: 34px;
-  }
-
-  .faq .accordion button {
+  .header .main-header p {
     font-size: 18px;
   }
 
-  .faq .accordion .accordion-body {
+  .about p {
     font-size: 16px;
   }
 
-  /* contact-section */
+  .about img {
+    position: relative;
+    width: 550px;
+    bottom: 15px;
+    left: 10px;
+    object-fit: cover;
+  }
 
-  .contact {
-    padding-bottom: 100px;
+  .faq .accordion {
+    width: 45rem;
+    margin-top: 1.5rem;
   }
 
   .contact h3 {
-    font-size: 34px;
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .header .main-header h3 {
+    font-size: 60px;
+  }
+
+  .header .main-header p {
+    font-size: 18px;
+  }
+
+  .about p {
+    font-size: 16px;
+  }
+
+  .product h5 {
+    font-size: 22px;
+  }
+
+  .product p {
+    font-size: 16px;
+  }
+
+  .faq .accordion {
+    width: 60rem;
+    margin-top: 1.5rem;
+  }
+
+  .faq .accordion button {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .faq .accordion .accordion-body {
+    font-size: 18px;
+  }
+
+  .contact h3 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header .main-header h3 {
+    font-size: 70px;
+  }
+
+  .header .main-header p {
+    font-size: 20px;
+  }
+
+  .about img {
+    position: relative;
+    width: 550px;
+    bottom: 30px;
+    left: 10px;
+    object-fit: cover;
+  }
+
+  .about h3 {
+    font-size: 50px;
+  }
+
+  .product h3 {
+    font-size: 50px;
+  }
+
+  .product h5 {
+    font-size: 24px;
+  }
+
+  .product p {
+    font-size: 18px;
+  }
+
+  .faq h3 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+  }
+
+  .faq .accordion {
+    width: 60rem;
+    margin-top: 1.5rem;
+  }
+
+  .faq .accordion button {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .faq .accordion .accordion-body {
+    font-size: 18px;
+  }
+
+  .contact h3 {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .header .main-header h3 {
+    font-size: 80px;
+  }
+
+  .header .main-header p {
+    font-size: 20px;
+  }
+
+  .about img {
+    position: relative;
+    width: 500px;
+    bottom: 40px;
+    left: 50px;
+    object-fit: cover;
+  }
+
+  .about h3 {
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+  .about p {
+    font-size: 18px;
+  }
+
+  .product h3 {
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+  .product p {
+    font-size: 16px;
+  }
+
+  .faq h3 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+  }
+
+  .faq .accordion {
+    width: 60rem;
+    margin-top: 1.5rem;
+  }
+
+  .faq .accordion button {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .faq .accordion .accordion-body {
+    font-size: 18px;
+  }
+
+  .contact h3 {
+    font-size: 50px;
+    font-weight: 600;
   }
 
   .contact iframe {
-    height: 300px;
-    margin-bottom: 50px;
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
   }
 }
