@@ -8,6 +8,22 @@ body {
 
 /* navbar */
 
+header nav {
+  background-color: #000000;
+}
+
+header nav a {
+  margin-left: 10px;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
 /* main-header-section */
 
 .header .main-header {
@@ -15,9 +31,9 @@ body {
 }
 
 .header .main-header h3 {
-  font-size: 80px;
+  font-size: 40px;
   font-weight: 600;
-  margin-top: 250px;
+  margin-top: 200px;
 }
 
 .header .main-header p {
@@ -47,9 +63,8 @@ body {
 
 .about img {
   position: relative;
-  width: 400px;
+  width: 100%;
   bottom: 30px;
-  left: 50px;
   object-fit: cover;
 }
 
@@ -88,7 +103,6 @@ body {
 .product h5 {
   text-transform: uppercase;
   font-size: 18px;
-  font-weight: 600;
 }
 
 .product p {
@@ -141,8 +155,9 @@ body {
 }
 
 .faq .accordion button {
+  font-family: "poppins", sans-serif;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .faq .accordion .accordion-body {
@@ -166,10 +181,12 @@ body {
 .contact {
   min-height: 750px;
   padding-top: 70px;
+  padding-bottom: 100px;
 }
 
 .contact h2 {
   font-size: 28px;
+  margin-top: 30px;
 }
 
 .contact h3 {
@@ -231,6 +248,10 @@ body {
   .product h5 {
     font-size: 20px;
   }
+
+  .contact {
+    padding-bottom: 100px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -262,11 +283,17 @@ body {
   .contact h3 {
     font-size: 40px;
   }
+
+  .contact h2 {
+    font-size: 28px;
+    margin-top: 5px;
+  }
 }
 
 @media (min-width: 992px) {
   .header .main-header h3 {
     font-size: 60px;
+    margin-top: 230px;
   }
 
   .header .main-header p {
@@ -292,7 +319,6 @@ body {
 
   .faq .accordion button {
     font-size: 20px;
-    font-weight: 600;
   }
 
   .faq .accordion .accordion-body {
@@ -301,6 +327,11 @@ body {
 
   .contact h3 {
     font-size: 40px;
+  }
+
+  .contact h2 {
+    font-size: 28px;
+    margin-top: 5px;
   }
 }
 
@@ -350,7 +381,6 @@ body {
 
   .faq .accordion button {
     font-size: 22px;
-    font-weight: 600;
   }
 
   .faq .accordion .accordion-body {
@@ -360,15 +390,24 @@ body {
   .contact h3 {
     font-size: 50px;
   }
+
+  .contact h2 {
+    font-size: 28px;
+    margin-top: 5px;
+  }
 }
 
 @media (min-width: 1400px) {
   .header .main-header h3 {
-    font-size: 80px;
+    font-size: 70px;
   }
 
   .header .main-header p {
     font-size: 20px;
+  }
+
+  .header .main-header form {
+    margin-top: 50px;
   }
 
   .about img {
@@ -410,7 +449,6 @@ body {
 
   .faq .accordion button {
     font-size: 22px;
-    font-weight: 600;
   }
 
   .faq .accordion .accordion-body {
@@ -426,5 +464,10 @@ body {
     object-fit: cover;
     width: 100%;
     height: 500px;
+  }
+
+  .contact h2 {
+    font-size: 28px;
+    margin-top: 5px;
   }
 }
