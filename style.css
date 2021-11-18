@@ -31,15 +31,15 @@ header nav a {
 }
 
 .header .main-header h3 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
-  margin-top: 200px;
+  margin-top: 30%;
 }
 
 .header .main-header p {
   opacity: 0.6;
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .header .main-header input {
@@ -57,7 +57,7 @@ header nav a {
 /* about-section */
 
 .about {
-  min-height: 500px;
+  min-height: 400px;
   padding-top: 70px;
 }
 
@@ -69,16 +69,12 @@ header nav a {
 }
 
 .about h3 {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 600;
 }
 
 .about p {
-  font-size: 18px;
-}
-
-.about .text {
-  margin-top: 1.5rem;
+  font-size: 16px;
 }
 
 .about button {
@@ -89,39 +85,39 @@ header nav a {
   border-radius: 0%;
 }
 
-/* product */
-.product {
+/* Product */
+.Product {
   padding-top: 75px;
   padding-bottom: 75px;
 }
 
-.product h3 {
-  font-size: 40px;
+.Product h3 {
+  font-size: 35px;
   font-weight: 600;
 }
 
-.product h5 {
+.Product h5 {
   text-transform: uppercase;
   font-size: 18px;
 }
 
-.product p {
+.Product p {
   font-size: 16px;
 }
 
-.product .card {
+.Product .card {
   margin-top: 1.5rem;
   border: none;
   border-radius: 0%;
 }
 
-.product img {
+.Product img {
   height: 300px;
   border-radius: 0%;
   object-fit: cover;
 }
 
-.product .btn {
+.Product .btn {
   width: 120px;
   height: 45px;
   background-color: #000000;
@@ -132,6 +128,26 @@ header nav a {
 
 /* Blog - section */
 
+.blog {
+  min-height: 600px;
+  padding-top: 70px;
+}
+
+.blog h3 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.blog .judul-blog {
+  margin-top: 25px;
+}
+
+.blog h4 {
+  font-size: 30px;
+  color: #000000;
+  text-decoration: none;
+}
+
 /* faq-section */
 
 .faq {
@@ -141,7 +157,7 @@ header nav a {
 
 .faq h3 {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
 }
 
@@ -190,14 +206,14 @@ header nav a {
 }
 
 .contact h3 {
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 600;
 }
 
 .contact iframe {
   object-fit: cover;
   width: 100%;
-  height: 500px;
+  height: 350px;
 }
 
 .contact .form-control {
@@ -227,6 +243,10 @@ header nav a {
   color: rgb(255, 255, 255);
 }
 
+.footer p {
+  font-size: 14px;
+}
+
 .footer p a {
   color: rgb(255, 255, 255);
   text-decoration: none;
@@ -234,7 +254,7 @@ header nav a {
 
 @media (min-width: 576px) {
   .header .main-header h3 {
-    font-size: 55px;
+    font-size: 35px;
   }
 
   .header .main-header p {
@@ -245,7 +265,7 @@ header nav a {
     font-size: 16px;
   }
 
-  .product h5 {
+  .Product h5 {
     font-size: 20px;
   }
 
@@ -256,7 +276,8 @@ header nav a {
 
 @media (min-width: 768px) {
   .header .main-header h3 {
-    font-size: 55px;
+    font-size: 45px;
+    margin-top: 200px;
   }
 
   .header .main-header p {
@@ -280,36 +301,44 @@ header nav a {
     margin-top: 1.5rem;
   }
 
-  .contact h3 {
-    font-size: 40px;
-  }
-
   .contact h2 {
     font-size: 28px;
     margin-top: 5px;
+  }
+
+  .contact iframe {
+    height: 100%;
   }
 }
 
 @media (min-width: 992px) {
   .header .main-header h3 {
     font-size: 60px;
-    margin-top: 230px;
+    margin-top: 200px;
   }
 
   .header .main-header p {
     font-size: 18px;
   }
 
+  .about h3 {
+    font-size: 40px;
+  }
+
   .about p {
     font-size: 16px;
   }
 
-  .product h5 {
-    font-size: 22px;
+  .Product h3 {
+    font-size: 40px;
   }
 
-  .product p {
+  .Product p {
     font-size: 16px;
+  }
+
+  .blog h3 {
+    font-size: 40px;
   }
 
   .faq .accordion {
@@ -338,6 +367,7 @@ header nav a {
 @media (min-width: 1200px) {
   .header .main-header h3 {
     font-size: 70px;
+    margin-top: 200px;
   }
 
   .header .main-header p {
@@ -346,9 +376,9 @@ header nav a {
 
   .about img {
     position: relative;
-    width: 550px;
-    bottom: 30px;
-    left: 10px;
+    width: 430px;
+    bottom: 25px;
+    left: 20px;
     object-fit: cover;
   }
 
@@ -356,16 +386,16 @@ header nav a {
     font-size: 50px;
   }
 
-  .product h3 {
+  .Product h3 {
     font-size: 50px;
   }
 
-  .product h5 {
-    font-size: 24px;
+  .Product p {
+    font-size: 18px;
   }
 
-  .product p {
-    font-size: 18px;
+  .blog h3 {
+    font-size: 50px;
   }
 
   .faq h3 {
@@ -400,6 +430,7 @@ header nav a {
 @media (min-width: 1400px) {
   .header .main-header h3 {
     font-size: 70px;
+    margin-top: 250px;
   }
 
   .header .main-header p {
@@ -412,7 +443,7 @@ header nav a {
 
   .about img {
     position: relative;
-    width: 500px;
+    width: 450px;
     bottom: 40px;
     left: 50px;
     object-fit: cover;
@@ -427,13 +458,17 @@ header nav a {
     font-size: 18px;
   }
 
-  .product h3 {
+  .Product h3 {
     font-size: 50px;
     font-weight: 600;
   }
 
-  .product p {
+  .Product p {
     font-size: 16px;
+  }
+
+  .blog h3 {
+    font-size: 50px;
   }
 
   .faq h3 {
